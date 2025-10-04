@@ -26,9 +26,9 @@ const Home = () => {
           </div>
           <div className="slide-up">
             <img
-              src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Legal team collaboration"
-              className="rounded-2xl shadow-2xl w-full h-auto"
+              src="https://images.pexels.com/photos/8111919/pexels-photo-8111919.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Justice scales and law books"
+              className="rounded-2xl shadow-2xl w-full h-auto object-cover"
             />
           </div>
         </div>
@@ -67,15 +67,15 @@ const Home = () => {
 
         <div className="glass-card p-12 mb-20 slide-up">
           <h2 className="section-heading text-center mb-12">Our Mission</h2>
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
               <img
-                src="https://images.pexels.com/photos/6077447/pexels-photo-6077447.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Justice and legal mission"
-                className="rounded-xl shadow-xl w-full h-auto"
+                className="rounded-xl shadow-xl w-full h-auto object-cover"
               />
             </div>
-            <div className="order-1 md:order-2">
+            <div>
               <p className="text-white/80 text-lg mb-6 leading-relaxed">
                 Legal Prudent Fraternity is dedicated to fostering a vibrant community of legal
                 professionals, students, and educators committed to excellence in legal practice
@@ -100,7 +100,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="space-y-4 order-3">
+            <div className="space-y-4">
               <div className="glass-card p-6">
                 <h4 className="text-xl font-bold text-white mb-2">500+ Members</h4>
                 <p className="text-white/70">Active legal professionals and students</p>

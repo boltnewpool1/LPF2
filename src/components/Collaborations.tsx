@@ -50,7 +50,7 @@ const Collaborations = () => {
           </p>
           <div className="max-w-5xl mx-auto">
             <img
-              src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Legal partnership and collaboration"
               className="rounded-xl shadow-2xl w-full h-80 object-cover"
             />

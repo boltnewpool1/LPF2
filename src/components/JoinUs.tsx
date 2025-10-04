@@ -87,14 +87,15 @@ const JoinUs = () => {
           </p>
           <div className="max-w-5xl mx-auto">
             <img
-              src="https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Legal community and networking"
+              src="https://images.pexels.com/photos/8111962/pexels-photo-8111962.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal community gavel and books"
               className="rounded-xl shadow-2xl w-full h-80 object-cover"
             />
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        {/* MEMBERSHIP TIERS - TO UNHIDE: Remove the 'hidden' class below */}
+        <div className="hidden grid lg:grid-cols-3 gap-8 mb-16">
           {membershipTiers.map((tier, index) => {
             const Icon = tier.icon;
             return (

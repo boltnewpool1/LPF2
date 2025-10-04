@@ -33,8 +33,8 @@ const Contact = () => {
           </p>
           <div className="max-w-5xl mx-auto">
             <img
-              src="https://images.pexels.com/photos/7876721/pexels-photo-7876721.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Legal consultation contact"
+              src="https://images.pexels.com/photos/6077381/pexels-photo-6077381.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal consultation and contact"
               className="rounded-xl shadow-2xl w-full h-72 object-cover"
             />
           </div>

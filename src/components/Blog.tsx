@@ -89,8 +89,8 @@ const Blog = () => {
           </p>
           <div className="max-w-5xl mx-auto">
             <img
-              src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Legal research and writing"
+              src="https://images.pexels.com/photos/5668838/pexels-photo-5668838.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal documents and research"
               className="rounded-xl shadow-2xl w-full h-80 object-cover"
             />
           </div>
