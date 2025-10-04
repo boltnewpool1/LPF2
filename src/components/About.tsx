@@ -36,7 +36,7 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://images.pexels.com/photos/6077447/pexels-photo-6077447.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://images.pexels.com/photos/4427610/pexels-photo-4427610.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Legal books and education"
                 className="rounded-xl shadow-xl w-full h-auto object-cover sticky top-24"
               />
@@ -74,8 +74,8 @@ const About = () => {
           <h3 className="text-3xl font-bold text-white mb-8 text-center">Core Values</h3>
           <div className="mb-10">
             <img
-              src="https://images.pexels.com/photos/8111984/pexels-photo-8111984.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Supreme Court of India - Justice and Legal Values"
+              src="https://images.pexels.com/photos/159832/justice-law-case-hearing-159832.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Justice scales - Legal Values"
               className="rounded-xl shadow-xl w-full h-72 object-cover"
             />
           </div>

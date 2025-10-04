@@ -35,7 +35,7 @@ const LegalAid = () => {
           </p>
           <div className="max-w-4xl mx-auto">
             <img
-              src="https://images.pexels.com/photos/7329674/pexels-photo-7329674.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Legal aid and justice scales"
               className="rounded-xl shadow-2xl w-full h-80 object-cover"
             />

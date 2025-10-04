@@ -87,7 +87,7 @@ const JoinUs = () => {
           </p>
           <div className="max-w-5xl mx-auto">
             <img
-              src="https://images.pexels.com/photos/8111962/pexels-photo-8111962.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Legal community gavel and books"
               className="rounded-xl shadow-2xl w-full h-80 object-cover"
             />

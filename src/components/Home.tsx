@@ -26,7 +26,7 @@ const Home = () => {
           </div>
           <div className="slide-up">
             <img
-              src="https://images.pexels.com/photos/8111919/pexels-photo-8111919.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Justice scales and law books"
               className="rounded-2xl shadow-2xl w-full h-auto object-cover"
             />
@@ -70,8 +70,8 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src="https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Justice and legal mission"
+                src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Legal books and gavel"
                 className="rounded-xl shadow-xl w-full h-auto object-cover"
               />
             </div>

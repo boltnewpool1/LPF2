@@ -74,7 +74,7 @@ const Events = () => {
           </p>
           <div className="max-w-5xl mx-auto">
             <img
-              src="https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Legal conference and events"
               className="rounded-xl shadow-2xl w-full h-96 object-cover"
             />
