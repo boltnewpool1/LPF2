@@ -69,9 +69,16 @@ const Events = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="section-heading">Events & Opportunities</h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
             Stay engaged with our community through workshops, competitions, and seminars
           </p>
+          <div className="max-w-5xl mx-auto">
+            <img
+              src="https://images.pexels.com/photos/7551665/pexels-photo-7551665.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal conference and events"
+              className="rounded-xl shadow-2xl w-full h-96 object-cover"
+            />
+          </div>
         </div>
 
         <div className="mb-20">

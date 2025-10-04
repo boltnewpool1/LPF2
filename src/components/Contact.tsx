@@ -28,9 +28,16 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="section-heading">Get in Touch</h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
             Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
+          <div className="max-w-5xl mx-auto">
+            <img
+              src="https://images.pexels.com/photos/7876721/pexels-photo-7876721.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal consultation contact"
+              className="rounded-xl shadow-2xl w-full h-72 object-cover"
+            />
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-12">

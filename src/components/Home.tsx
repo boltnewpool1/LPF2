@@ -4,23 +4,32 @@ const Home = () => {
   return (
     <section id="home" className="min-h-screen pt-32 pb-20 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 slide-up">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            Empowering Legal Minds,
-            <br />
-            <span className="text-gradient">Building Justice Together</span>
-          </h1>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
-            A collaborative legal community connecting law students, educators, and professionals
-            for learning, writing, and providing accessible legal aid to those in need.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#join" className="btn-primary">
-              Join Our Community
-            </a>
-            <a href="#legal-aid" className="btn-secondary">
-              Request Legal Aid
-            </a>
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="text-center lg:text-left slide-up">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+              Empowering Legal Minds,
+              <br />
+              <span className="text-gradient">Building Justice Together</span>
+            </h1>
+            <p className="text-xl text-white/80 mb-8">
+              A collaborative legal community connecting law students, educators, and professionals
+              for learning, writing, and providing accessible legal aid to those in need.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a href="#join" className="btn-primary">
+                Join Our Community
+              </a>
+              <a href="#legal-aid" className="btn-secondary">
+                Request Legal Aid
+              </a>
+            </div>
+          </div>
+          <div className="slide-up">
+            <img
+              src="https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Legal team collaboration"
+              className="rounded-2xl shadow-2xl w-full h-auto"
+            />
           </div>
         </div>
 
@@ -59,7 +68,14 @@ const Home = () => {
         <div className="glass-card p-12 mb-20 slide-up">
           <h2 className="section-heading text-center mb-12">Our Mission</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="order-2 md:order-1">
+              <img
+                src="https://images.pexels.com/photos/6077447/pexels-photo-6077447.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Justice and legal mission"
+                className="rounded-xl shadow-xl w-full h-auto"
+              />
+            </div>
+            <div className="order-1 md:order-2">
               <p className="text-white/80 text-lg mb-6 leading-relaxed">
                 Legal Prudent Fraternity is dedicated to fostering a vibrant community of legal
                 professionals, students, and educators committed to excellence in legal practice
@@ -84,7 +100,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-4 order-3">
               <div className="glass-card p-6">
                 <h4 className="text-xl font-bold text-white mb-2">500+ Members</h4>
                 <p className="text-white/70">Active legal professionals and students</p>

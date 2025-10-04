@@ -45,9 +45,16 @@ const Collaborations = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="section-heading">Our Collaborations</h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
             Building bridges across institutions to strengthen the legal community
           </p>
+          <div className="max-w-5xl mx-auto">
+            <img
+              src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal partnership and collaboration"
+              className="rounded-xl shadow-2xl w-full h-80 object-cover"
+            />
+          </div>
         </div>
 
         <div className="glass-card p-12 mb-12 slide-up">

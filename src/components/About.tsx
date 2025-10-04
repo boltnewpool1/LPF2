@@ -12,7 +12,18 @@ const About = () => {
         </div>
 
         <div className="glass-card p-12 mb-12 slide-up">
-          <h3 className="text-3xl font-bold text-white mb-6">Our Story</h3>
+          <div className="grid lg:grid-cols-2 gap-8 items-center mb-8">
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-6">Our Story</h3>
+            </div>
+            <div>
+              <img
+                src="https://images.pexels.com/photos/7841477/pexels-photo-7841477.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Legal education and collaboration"
+                className="rounded-xl shadow-xl w-full h-auto"
+              />
+            </div>
+          </div>
           <div className="text-white/80 text-lg space-y-4 leading-relaxed">
             <p>
               Legal Prudent Fraternity was established with a vision to create a collaborative
@@ -63,6 +74,13 @@ const About = () => {
 
         <div className="glass-card p-12 mb-12 slide-up">
           <h3 className="text-3xl font-bold text-white mb-8 text-center">Core Values</h3>
+          <div className="mb-8">
+            <img
+              src="https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal team values"
+              className="rounded-xl shadow-xl w-full h-64 object-cover"
+            />
+          </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="bg-cyan-400/20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">

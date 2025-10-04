@@ -84,9 +84,16 @@ const Blog = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="section-heading">Legal Prudent Blog</h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
             Expert insights, judgment analyses, and comprehensive legal resources
           </p>
+          <div className="max-w-5xl mx-auto">
+            <img
+              src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal research and writing"
+              className="rounded-xl shadow-2xl w-full h-80 object-cover"
+            />
+          </div>
         </div>
 
         <div className="glass-card p-6 mb-12 slide-up">

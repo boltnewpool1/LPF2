@@ -82,9 +82,16 @@ const JoinUs = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="section-heading">Join Our Community</h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
             Become part of a thriving legal community committed to excellence and service
           </p>
+          <div className="max-w-5xl mx-auto">
+            <img
+              src="https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Legal community and networking"
+              className="rounded-xl shadow-2xl w-full h-80 object-cover"
+            />
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
